@@ -2,7 +2,7 @@
 
 - Um wrapper para facilitar o uso da API do **Last Silence**
 
-`getBot('ID': string): Bot`
+- `getBot('ID': string): Bot`
 
 ```js
 const Last = require('last-wrapper');
