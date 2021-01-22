@@ -9,6 +9,7 @@ module.exports = class Last {
     if(!id) throw new Error('Last - You need to enter the id.');
 
     const response = await api.get('/bot/' + id);
+    console.log(response.status)
     if(response.status === 404) {
       throw new Error('Last - 404 Bot not found');
     }
